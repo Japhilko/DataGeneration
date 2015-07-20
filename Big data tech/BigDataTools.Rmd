@@ -15,6 +15,8 @@ output: ioslides_presentation
 
 - [Distributed computing with spark](https://www.youtube.com/watch?list=PL87GtQd0bfJzt1mZZQSj7NCRLeFdh_How&t=86&v=-TiMNoj7Rrs)
 
+- [Starting with Spark](http://strataconf.com/big-data-conference-ca-2015/public/content/apache-spark)
+
 ## Buzz words 
 
 - Resiliant distributed datasets (RDD)
@@ -25,7 +27,7 @@ output: ioslides_presentation
 
 [Hints on the usage](http://amplab-extras.github.io/SparkR-pkg/)
 
-```{r}
+```{r,eval=F}
 library(devtools)
 install_github("amplab-extras/SparkR-pkg", subdir="pkg")
 library(SparkR)
